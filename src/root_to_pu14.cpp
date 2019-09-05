@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
       {
 
          if(PStatus[i] < 23.1 && PStatus[i] > 22.9)   // 23: parton
-            out << PX[i] << " " << PY[i] << " " << PZ[i] << " " << PM[i] << " " << PID[i] << " " << 0 << endl;
+            out << PX[i] << " " << PY[i] << " " << PZ[i] << " " << PM[i] << " " << PID[i] << " " << -1 << endl;
          if(PStatus[i] < 1.1 && PStatus[i] > 0.9)   // 1: final state particle
             out << PX[i] << " " << PY[i] << " " << PZ[i] << " " << PM[i] << " " << PID[i] << " " << 0 << endl;
          if(PStatus[i] < 4.1 && PStatus[i] > 3.9)   // 4: incoming beam particle
